@@ -1,4 +1,4 @@
-#GitHub Page
+# GitHub Page
 
 https://bangreng.github.io/VegetableStoreRedux/
 
