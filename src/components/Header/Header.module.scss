@@ -1,0 +1,93 @@
+.header {
+  position: sticky;
+  top: 0;
+  height: 59px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  z-index: 1000;
+}
+
+.headerInner {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+
+.logoWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 209px;
+  height: 33px;
+  padding-left: 12px;
+  border-radius: 31px;
+  background-color: #f7f7f7;
+  font-family: 'Inter', sans-serif;
+}
+
+.logo {
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 22px;
+  color: #000000;
+  line-height: 100%;
+}
+
+.shopLink {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+  background-color: #54b46a;
+  color: white;
+  width: 80px;
+  height: 33px;
+  border-radius: 21px;
+  text-decoration: none;
+  font-size: 20px;
+  line-height: 100%;
+  transition: background-color 0.2s;
+
+  &:hover {
+    background-color: #459c5b;
+  }
+}
+
+.cartButton {
+  background-color: #54b46a;
+  border: none;
+  color: white;
+  width: 144px;
+  height: 44px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+
+  &:hover {
+    background-color: #459c5b;
+  }
+}
+
+.cartButtonContent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 100%;
+}
+
+.cartBadge {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: white;
+  color: #54b46a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  font-size: 12px;
+}

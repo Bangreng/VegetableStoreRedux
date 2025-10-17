@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.button {
+  background-color: #dee2e6;
+  color: black;
+  border: none;
+  transition: background-color 0.2s ease;
+
+  &:hover:not(:disabled) {
+    background-color: #ced4da;
+  }
+
+  &:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+}
+
+.value {
+  text-align: center;
+  font-weight: 600;
+  user-select: none;
+}

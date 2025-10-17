@@ -1,0 +1,60 @@
+.card {
+  height: 390px;
+  width: 302px;
+  border-radius: 24px;
+  background-color: white;
+}
+
+.image {
+  padding: 16px;
+  height: 276px;
+  width: 276px;
+  object-fit: cover;
+}
+
+.content {
+  padding: 0 16px;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+
+.titleBox {
+  display: flex;
+  align-items: center;
+}
+
+.name {
+  font-weight: 600;
+  font-size: 18px;
+  margin-right: 12px;
+}
+
+.subtitle {
+  font-weight: 600;
+  font-size: 14px;
+  color: #868E96;
+}
+
+.bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.price {
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.button {
+  background-color: #E7FAEB;
+  color: #3B944E;
+  border-radius: 8px;
+  width: 204px;
+  height: 44px;
+  border: none;
+}
